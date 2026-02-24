@@ -1,5 +1,5 @@
 name: astrbot_plugin_smart_search
-description: 智能联网搜索插件 - 为 LLM 提供最新准确的网络信息
-author: Yezi
+description: 为 AstrBot 的 LLM 提供实时联网搜索能力，基于 Tavily API。内置完整搜索框架，由模型来监督实时搜索过程。
+author: YEZI
 version: 1.3.0
-repo: https://github.com/astrbot/
+repo: https://github.com/czxieddan/Astrbot-Plugin-Smart-Search
