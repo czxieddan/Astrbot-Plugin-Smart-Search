@@ -1,0 +1,32 @@
+{
+  "tavily_api_key_1": {
+    "description": "Tavily API Key 1（主要）",
+    "type": "string",
+    "hint": "从 https://tavily.com 获取 API Key",
+    "default": ""
+  },
+  "tavily_api_key_2": {
+    "description": "Tavily API Key 2（备用，可选）",
+    "type": "string",
+    "hint": "额度用尽时自动切换到此 Key",
+    "default": ""
+  },
+  "tavily_api_key_3": {
+    "description": "Tavily API Key 3（备用，可选）",
+    "type": "string",
+    "hint": "额度用尽时自动切换到此 Key",
+    "default": ""
+  },
+  "max_days_old": {
+    "description": "内容时效限制（天）",
+    "type": "int",
+    "hint": "只参考多少天内的内容，0 表示不限制。例如 90 表示只参考三个月内的内容",
+    "default": 0
+  },
+  "show_sources": {
+    "description": "显示搜索来源",
+    "type": "bool",
+    "hint": "开启后会在回复末尾显示参考来源的 URL 列表",
+    "default": false
+  }
+}
